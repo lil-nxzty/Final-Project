@@ -4,21 +4,23 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    height: 75vh;
 }
-.containter.imge {
-    height: 250px;
-    width: 150px;
-    border-radius: 75%;
+.imga {
+    height: 600px;
+    width: 800px;
+    border-radius: 10%;
+    padding: 25px;
 }
-.container.text-upper {
+.text-upper {
     height: 150px;
     width: 150px;
-
 }
 
-.container.attribution {
-    margin-top: 20px;
+.attribution {
     font-size: 14px;
-    color: #666;
+    height: 100px;
+    width: 200px;
 }
+
